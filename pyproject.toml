@@ -1,0 +1,28 @@
+# pyproject.toml
+[project]
+name = "livekit-voice-agent"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-chroma>=0.2.5",
+    "langchain-community>=0.3.29",
+    "langchain-core>=0.3.76",
+    "langchain-openai>=0.3.33",
+    "livekit-agents[bey,cartesia,deepgram,openai,silero,turn-detector]~=1.2",
+    "livekit-plugins-langchain~=1.1",
+    "livekit-plugins-noise-cancellation~=0.2",
+    "pypdf>=6.0.0",
+    "python-dotenv>=1.1.1",
+    "torch>=2.0.0",
+    "torchaudio>=2.0.0",
+    "langchain-groq>=0.3.0",
+    "langgraph>=0.3.0",
+    "langchain-huggingface>=0.3.0",
+    "langchain-text-splitters>=0.3.0",
+    "langchain-openai>=0.3.33",
+    "sentence-transformers>=2.2.2",
+    "langchain",
+]
+
+[tool.setuptools]
+py-modules = ["agent", "main"]

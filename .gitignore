@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Environment Variables (IMPORTANT - contains secrets!)
+.env
+.env.local
+.env.production
+
+# Build/Package artifacts
+*.egg-info/
+*.egg
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+KMS/
+
+# Personal files (optional - remove if you want to include)
+*.pdf
